@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2cc98d8-c2e0-4b1b-96e5-78a319f12f26" name="Default" comment="" />
+    <list default="true" id="a2cc98d8-c2e0-4b1b-96e5-78a319f12f26" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/stock_spider/interface.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/stock_spider/stock_classification.py" afterPath="$PROJECT_DIR$/stock_spider/stock_classification.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +15,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/stock$stock_spider.coverage" NAME="stock_spider Coverage Results" MODIFIED="1520578823377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stock_spider" />
-    <SUITE FILE_PATH="coverage/stock$stock_classification.coverage" NAME="stock_classification Coverage Results" MODIFIED="1520682575905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stock_spider" />
+    <SUITE FILE_PATH="coverage/stock$stock_classification.coverage" NAME="stock_classification Coverage Results" MODIFIED="1520693812997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stock_spider" />
+    <SUITE FILE_PATH="coverage/stock$interface.coverage" NAME="interface Coverage Results" MODIFIED="1520815757367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stock_spider" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
@@ -20,9 +25,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
               <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -30,7 +33,7 @@
       <file leaf-file-name="stock_all.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stock_spider/stock_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-459">
+            <state relative-caret-position="1944">
               <caret line="76" column="21" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
               <folding>
                 <element signature="e#28#41#0" expanded="true" />
@@ -39,20 +42,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stock_classification.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stock_classification.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stock_spider/stock_classification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+            <state relative-caret-position="27">
+              <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1520682712786" expanded="true" signature="925:962" ph="select stock... stock_600000" />
-                <marker date="1520682712786" expanded="true" signature="925:966" ph="select disti... stock_all" />
-                <marker date="1520682712786" expanded="true" signature="925:968" ph="select stock... stock" />
-                <marker date="1520682712786" expanded="true" signature="1036:1078" ph="delete from stock_classification... " />
-                <marker date="1520682712786" expanded="true" signature="1788:1820" ph="insert into stock_classification... " />
-                <marker date="1520682712786" expanded="true" signature="1788:1853" ph="insert into stock_classification... " />
-                <marker date="1520682712786" expanded="true" signature="1788:1872" ph="insert into stock_classification... " />
+                <marker date="1520693810197" expanded="true" signature="847:884" ph="select stock... stock_600000" />
+                <marker date="1520693810197" expanded="true" signature="847:888" ph="select disti... stock_all" />
+                <marker date="1520693810197" expanded="true" signature="847:890" ph="select stock... stock" />
+                <marker date="1520693810197" expanded="true" signature="966:1008" ph="delete from stock_classification... " />
+                <marker date="1520693810197" expanded="true" signature="1731:1763" ph="insert into stock_classification... " />
+                <marker date="1520693810197" expanded="true" signature="1731:1796" ph="insert into stock_classification... " />
+                <marker date="1520693810197" expanded="true" signature="1731:1815" ph="insert into stock_classification... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interface.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stock_spider/interface.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="106" column="35" lean-forward="true" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1520815757327" expanded="true" signature="2492:2533" ph="select DISTI... stock_all" />
+                <marker date="1520815757327" expanded="true" signature="2710:2752" ph="delete from stock_classification... " />
+                <marker date="1520815757327" expanded="true" signature="2843:3137" ph="insert into my_data... " />
+                <marker date="1520815757327" expanded="true" signature="2864:3136" ph="select * fro... stock_all" />
+                <marker date="1520815757327" expanded="true" signature="3486:3541" ph="SELECT * int... " />
               </folding>
             </state>
           </provider>
@@ -67,6 +87,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>raw_input</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -74,6 +102,7 @@
         <option value="$PROJECT_DIR$/stock_spider/stock_spider.py" />
         <option value="$PROJECT_DIR$/stock_spider/stock_all.py" />
         <option value="$PROJECT_DIR$/stock_spider/stock_classification.py" />
+        <option value="$PROJECT_DIR$/stock_spider/interface.py" />
       </list>
     </option>
   </component>
@@ -89,6 +118,7 @@
     <option name="width" value="788" />
     <option name="height" value="631" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -104,6 +134,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,8 +152,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,7 +177,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.stock_classification">
+  <component name="RunManager" selected="Python.interface">
+    <configuration name="interface" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stock_spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stock" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stock_spider/interface.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="stock_classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,14 +235,16 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.stock_spider" />
       <item index="1" class="java.lang.String" itemvalue="Python.stock_classification" />
+      <item index="2" class="java.lang.String" itemvalue="Python.interface" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.stock_classification" />
-        <item index="1" class="java.lang.String" itemvalue="Python.stock_spider" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.interface" />
+        <item index="1" class="java.lang.String" itemvalue="Python.stock_classification" />
+        <item index="2" class="java.lang.String" itemvalue="Python.stock_spider" />
       </list>
     </recent_temporary>
   </component>
@@ -219,11 +270,11 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4012945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24595469" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17423134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10248902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -254,11 +305,94 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/stock_spider/stock_month.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_spider/stock_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1520693810197" expanded="true" signature="847:884" ph="select stock... stock_600000" />
+            <marker date="1520693810197" expanded="true" signature="847:888" ph="select disti... stock_all" />
+            <marker date="1520693810197" expanded="true" signature="847:890" ph="select stock... stock" />
+            <marker date="1520693810197" expanded="true" signature="966:1008" ph="delete from stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1763" ph="insert into stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1796" ph="insert into stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1815" ph="insert into stock_classification... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_spider/stock_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="76" column="21" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+          <folding>
+            <element signature="e#28#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_spider/interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2457">
+          <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="100" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1520815757327" expanded="true" signature="2492:2533" ph="select DISTI... stock_all" />
+            <marker date="1520815757327" expanded="true" signature="2710:2752" ph="delete from stock_classification... " />
+            <marker date="1520815757327" expanded="true" signature="2843:3137" ph="insert into my_data... " />
+            <marker date="1520815757327" expanded="true" signature="2864:3136" ph="select * fro... stock_all" />
+            <marker date="1520815757327" expanded="true" signature="3486:3541" ph="SELECT * int... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_spider/stock_month.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_spider/stock_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="76" column="21" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#28#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_spider/stock_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="52" column="47" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1520693810197" expanded="true" signature="847:884" ph="select stock... stock_600000" />
+            <marker date="1520693810197" expanded="true" signature="847:888" ph="select disti... stock_all" />
+            <marker date="1520693810197" expanded="true" signature="847:890" ph="select stock... stock" />
+            <marker date="1520693810197" expanded="true" signature="966:1008" ph="delete from stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1763" ph="insert into stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1796" ph="insert into stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1815" ph="insert into stock_classification... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_spider/stock_month.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -278,13 +412,13 @@
           <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1520682712786" expanded="true" signature="925:962" ph="select stock... stock_600000" />
-            <marker date="1520682712786" expanded="true" signature="925:966" ph="select disti... stock_all" />
-            <marker date="1520682712786" expanded="true" signature="925:968" ph="select stock... stock" />
-            <marker date="1520682712786" expanded="true" signature="1036:1078" ph="delete from stock_classification... " />
-            <marker date="1520682712786" expanded="true" signature="1788:1820" ph="insert into stock_classification... " />
-            <marker date="1520682712786" expanded="true" signature="1788:1853" ph="insert into stock_classification... " />
-            <marker date="1520682712786" expanded="true" signature="1788:1872" ph="insert into stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="847:884" ph="select stock... stock_600000" />
+            <marker date="1520693810197" expanded="true" signature="847:888" ph="select disti... stock_all" />
+            <marker date="1520693810197" expanded="true" signature="847:890" ph="select stock... stock" />
+            <marker date="1520693810197" expanded="true" signature="966:1008" ph="delete from stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1763" ph="insert into stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1796" ph="insert into stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1815" ph="insert into stock_classification... " />
           </folding>
         </state>
       </provider>
@@ -293,9 +427,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -315,13 +447,13 @@
           <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1520682712786" expanded="true" signature="925:962" ph="select stock... stock_600000" />
-            <marker date="1520682712786" expanded="true" signature="925:966" ph="select disti... stock_all" />
-            <marker date="1520682712786" expanded="true" signature="925:968" ph="select stock... stock" />
-            <marker date="1520682712786" expanded="true" signature="1036:1078" ph="delete from stock_classification... " />
-            <marker date="1520682712786" expanded="true" signature="1788:1820" ph="insert into stock_classification... " />
-            <marker date="1520682712786" expanded="true" signature="1788:1853" ph="insert into stock_classification... " />
-            <marker date="1520682712786" expanded="true" signature="1788:1872" ph="insert into stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="847:884" ph="select stock... stock_600000" />
+            <marker date="1520693810197" expanded="true" signature="847:888" ph="select disti... stock_all" />
+            <marker date="1520693810197" expanded="true" signature="847:890" ph="select stock... stock" />
+            <marker date="1520693810197" expanded="true" signature="966:1008" ph="delete from stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1763" ph="insert into stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1796" ph="insert into stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1815" ph="insert into stock_classification... " />
           </folding>
         </state>
       </provider>
@@ -330,9 +462,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -352,13 +482,13 @@
           <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1520682712786" expanded="true" signature="925:962" ph="select stock... stock_600000" />
-            <marker date="1520682712786" expanded="true" signature="925:966" ph="select disti... stock_all" />
-            <marker date="1520682712786" expanded="true" signature="925:968" ph="select stock... stock" />
-            <marker date="1520682712786" expanded="true" signature="1036:1078" ph="delete from stock_classification... " />
-            <marker date="1520682712786" expanded="true" signature="1788:1820" ph="insert into stock_classification... " />
-            <marker date="1520682712786" expanded="true" signature="1788:1853" ph="insert into stock_classification... " />
-            <marker date="1520682712786" expanded="true" signature="1788:1872" ph="insert into stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="847:884" ph="select stock... stock_600000" />
+            <marker date="1520693810197" expanded="true" signature="847:888" ph="select disti... stock_all" />
+            <marker date="1520693810197" expanded="true" signature="847:890" ph="select stock... stock" />
+            <marker date="1520693810197" expanded="true" signature="966:1008" ph="delete from stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1763" ph="insert into stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1796" ph="insert into stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1815" ph="insert into stock_classification... " />
           </folding>
         </state>
       </provider>
@@ -367,9 +497,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -377,15 +505,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stock_spider/stock_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
+        <state relative-caret-position="1944">
           <caret line="76" column="21" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
           <folding>
             <element signature="e#28#41#0" expanded="true" />
@@ -393,19 +519,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/anaconda3/envs/tensorflow/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="181" column="4" lean-forward="false" selection-start-line="181" selection-start-column="4" selection-end-line="181" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/960138430/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="3590" column="8" lean-forward="false" selection-start-line="3590" selection-start-column="8" selection-end-line="3590" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stock_spider/stock_classification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        <state relative-caret-position="27">
+          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1520682712786" expanded="true" signature="925:962" ph="select stock... stock_600000" />
-            <marker date="1520682712786" expanded="true" signature="925:966" ph="select disti... stock_all" />
-            <marker date="1520682712786" expanded="true" signature="925:968" ph="select stock... stock" />
-            <marker date="1520682712786" expanded="true" signature="1036:1078" ph="delete from stock_classification... " />
-            <marker date="1520682712786" expanded="true" signature="1788:1820" ph="insert into stock_classification... " />
-            <marker date="1520682712786" expanded="true" signature="1788:1853" ph="insert into stock_classification... " />
-            <marker date="1520682712786" expanded="true" signature="1788:1872" ph="insert into stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="847:884" ph="select stock... stock_600000" />
+            <marker date="1520693810197" expanded="true" signature="847:888" ph="select disti... stock_all" />
+            <marker date="1520693810197" expanded="true" signature="847:890" ph="select stock... stock" />
+            <marker date="1520693810197" expanded="true" signature="966:1008" ph="delete from stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1763" ph="insert into stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1796" ph="insert into stock_classification... " />
+            <marker date="1520693810197" expanded="true" signature="1731:1815" ph="insert into stock_classification... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_spider/interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="106" column="35" lean-forward="true" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1520815757327" expanded="true" signature="2492:2533" ph="select DISTI... stock_all" />
+            <marker date="1520815757327" expanded="true" signature="2710:2752" ph="delete from stock_classification... " />
+            <marker date="1520815757327" expanded="true" signature="2843:3137" ph="insert into my_data... " />
+            <marker date="1520815757327" expanded="true" signature="2864:3136" ph="select * fro... stock_all" />
+            <marker date="1520815757327" expanded="true" signature="3486:3541" ph="SELECT * int... " />
           </folding>
         </state>
       </provider>
