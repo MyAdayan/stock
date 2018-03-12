@@ -89,11 +89,20 @@ def main():
     codeStatement = "select DISTINCT stock_code from stock_all;"
     rondomCodeList =  getRondomCode(inputData.quantity, dbUtil.query(codeStatement))
     result = []
-    for item in rondomCodeList:
 
-        # 清空数据表
-        sqlSentence1 = "delete from stock_classification where 1=1"
-        dbUtil.execute(sqlSentence1)
+    my_file = 'D:/stock/stock.csv'
+    if os.path.exists(my_file):
+        # 删除文件，可使用以下两种方法。
+        os.remove(my_file)
+    else:
+        print
+        'no such file:%s' % my_file
+
+    # 清空数据表
+    sqlSentence1 = "delete from my_data where 1=1"
+    dbUtil.execute(sqlSentence1)
+
+    for item in rondomCodeList:
 
         #print("item:"+item)
         statement2 = "insert into my_data (select * from stock_all, stock_classification where stock_all.stock_code = '" + item +  \
@@ -102,18 +111,8 @@ def main():
         print(statement2)
         dbUtil.execute(statement2)
         #print("查询内容:"+str(dbUtil.query(statement)))
-
-        my_file = 'D:/stock/stock.csv'
-        if os.path.exists(my_file):
-            # 删除文件，可使用以下两种方法。
-            os.remove(my_file)
-        else:
-            print
-            'no such file:%s' % my_file
-
-        statement3 = "select * from my_data into outfile 'D:/stock/stock.csv';"
-        dbUtil.execute(statement3)
-
+    statement3 = "select * from my_data into outfile 'D:/stock/stock.csv';"
+    dbUtil.execute(statement3)
     dbUtil.close()
 if __name__ == '__main__':
     main()
